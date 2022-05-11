@@ -59,4 +59,13 @@ public class Movimentacao {
 	public void setTipo(MovimentacaoTipo tipo) {
 		this.tipo = tipo;
 	}
+	
+	@Column(name = "id_conta")
+	private Integer idConta;
+	public Integer getIdConta() {
+		return idConta;
+	}
+	public void setIdConta(Integer idConta) {
+		this.idConta = idConta;
+	}
 }
